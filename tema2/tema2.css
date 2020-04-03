@@ -1,0 +1,79 @@
+@font-face {
+    font-family: 'Muli';
+    src: url(fonts/Muli.ttf)
+}
+
+.container {
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+  
+.section {
+    height: 430px;
+    padding: 10px;
+    border: 15px;
+    margin: 10px;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    font-family: 'Muli';
+    font-weight: normal;
+    margin-top: 40px;
+}
+
+.container-list {
+   margin-left: 120px;       
+}
+
+td {
+    padding-left: 20px;
+    font-family: 'Muli';
+    font-weight: 400px;
+    color:	#a0a2a3;
+}
+  
+td:first-child {
+    color: #f89d13;
+}
+
+.dot-red {
+    color: red;
+}
+
+p {
+    color: grey;
+    font-family: 'Muli';
+    font-size: large;
+    font-weight: 500;
+    text-align: center;
+    width: 400px;
+}
+
+.cart {
+    display: inline-block;
+    background-color: black;
+    color: white;
+    border-color: black;
+    font-size: 16px;
+    font-weight: 800;
+    text-transform: uppercase;
+    padding: 10px 22px;
+    margin-left: 100px;
+}
+
+.view {
+    display: inline-block;
+    background-color: white;
+    border-color: black;
+    font-size: 16px;
+    font-weight: 800;
+    text-transform: uppercase;
+    padding: 10px 22px;
+    margin-left: 10px;
+}
+
